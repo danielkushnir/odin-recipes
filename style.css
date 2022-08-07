@@ -6,14 +6,14 @@
     text-align: center;
 }
 
-ul {
+.list-thumbnail {
     text-align: center;
     list-style-type: none; /* Remove bullets */
     padding: 0; /* Remove padding */
     margin: 0; /* Remove margins */
   }  
 
-li {
+.listitem-thumbnail {
     text-align: center;
     display: inline;
     margin: 10px;
@@ -21,8 +21,8 @@ li {
 
 .thumbnail {
     background-color: black;
-    width: 250px;
-    height: 200px;
+    width:375px;
+    height: 300px;
     display: inline-block;
     background-size: cover; 
     background-position: center center;
