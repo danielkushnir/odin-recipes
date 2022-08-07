@@ -2,6 +2,10 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+h1 {
+    font-size: 5vw;
+}
+
 #container {
     text-align: center;
 }
@@ -27,4 +31,20 @@
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
+}
+
+.thumbnail:hover {
+    opacity: 0.3;
+}
+
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
 }
