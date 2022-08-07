@@ -2,6 +2,18 @@
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+#wrap {
+    float: left;
+    position: relative;
+    left: 50%;
+}
+
+#content {
+    float: left;
+    position: relative;
+    left: -50%;
+}
+
 h1 {
     font-size: 5vw;
 }
@@ -31,20 +43,43 @@ h1 {
     background-size: cover; 
     background-position: center center;
     background-repeat: no-repeat;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: relative;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
 }
 
 .thumbnail:hover {
     opacity: 0.3;
 }
 
-#wrap {
-    float: left;
-    position: relative;
-    left: 50%;
+.thumbnail:hover .middle {
+    opacity: 1;
+}
+  
+.text-hover {
+    background-color: rgb(18, 167, 110);
+    color: white;
+    font-size: 1.5em;
+    padding: 16px 32px;
 }
 
-#content {
-    float: left;
-    position: relative;
-    left: -50%;
-}
+a:link { text-decoration: none; }
+
+
+a:visited { text-decoration: none; }
+
+
+a:hover { text-decoration: none; }
+
+
+a:active { text-decoration: none; }
