@@ -32,7 +32,6 @@ h1 {
 .listitem-thumbnail {
     text-align: center;
     display: inline;
-    margin: 10px;
 }
 
 .thumbnail {
@@ -45,6 +44,7 @@ h1 {
     background-repeat: no-repeat;
     transition: .5s ease;
     backface-visibility: hidden;
+    margin: 10px;
 }
 
 .middle {
@@ -83,3 +83,22 @@ a:hover { text-decoration: none; }
 
 
 a:active { text-decoration: none; }
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-page {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50rem;
+}
+
+.main-page {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 80rem;
+}
