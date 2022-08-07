@@ -36,7 +36,7 @@ h1 {
 
 .thumbnail {
     background-color: black;
-    width:400px;
+    width:27rem;
     height: 300px;
     display: inline-block;
     background-size: cover; 
