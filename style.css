@@ -15,8 +15,20 @@
 }
 
 h1 {
-    font-size: 5vw;
+    font-size: 4rem;
 }
+
+h2 {
+    font-size: 2rem;
+  }
+  
+  ul,ol,dl,p {
+    font-size: 1.5rem;
+  }
+  
+  li, p {
+    line-height: 1.5;
+  }
 
 #container {
     text-align: center;
